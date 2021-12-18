@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+.container{
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 20px;
+}
+.formTitle{
+    font-weight: 400;
+    font-size: 14px;
+}
+.formContent1 > span{
+    display: inline-block;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.formContent1 >  input{
+    padding: 10px;
+    width: 97%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.flex > div{
+    margin-right: 10px;
+}
+.flex > div input{
+   padding: 10px;
+}
+
+.formContent2 .formTitle{
+    margin-bottom: 10px;
+}
+.formContent2 span{
+    display: block;
+}
+.formContent2 input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 97%;
+}
+.formContent2 input:last-child{
+    margin-bottom: 0px;
+}
+.formContent2 img{
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+form{
+    position: relative;
+}
+.btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: green;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    width: 96%;
+    transform: translateX(-50%);
+    margin-bottom: 11px;
+}
